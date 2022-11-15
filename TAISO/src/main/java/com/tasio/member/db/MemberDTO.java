@@ -1,6 +1,5 @@
 package com.tasio.member.db;
 
-import java.sql.Date;
 import java.sql.Timestamp;
 
 public class MemberDTO {
@@ -19,6 +18,7 @@ public class MemberDTO {
 	private String mem_image;			// 회원 프로필 이미지
 	private int mem_blacklist;			// 회원 블랙리스트
 	private String license_num;			// 회원 면허증 번호
+	
 	
 	
 	public int getMem_num() {
